@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Hand_drawn_2" data-name="Hand drawn 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.47 221.65">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .09em;
+      }
+
+      .cls-2 {
+        letter-spacing: .15em;
+      }
+
+      .cls-3 {
+        fill: #fdf9fd;
+        stroke: #2b2b2b;
+        stroke-miterlimit: 10;
+        stroke-width: 1.02px;
+      }
+
+      .cls-4 {
+        font-family: SegoeScript-Bold, 'Segoe Script';
+        font-size: 32px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Star_4" data-name="Star 4">
+    <path id="Star_4-2" data-name="Star 4" class="cls-3" d="m54.19,127.1c-1.67-1.19-34.44-17.78-34.44-17.78,0,0-47.14-17.12,6.16-30.68,38.19-9.71,48.52-9.72,48.52-9.72l9.24-52.05s-.11-14.31,9.53-16.22,20.11,16.48,23.42,21.99,13.37,25.38,20.28,34.07c6.92,8.69,35.52,7.44,35.52,7.44,0,0,18.51-3.57,31.24,4.45,17.87,11.25,10.46,22.56-6.53,37.65-13.66,12.13-35.61,25.26-35.61,25.26l16.05,53.74,5.29,21.5s2.21,30.81-30.37,2.24c-31.81-27.89-39.06-35.49-39.06-35.49l-48.21,35.2s-33.13,32.72-24.43-16.27c5.64-31.74,13.4-65.34,13.4-65.34Z"/>
+    <text class="cls-4" transform="translate(32.06 110.82)"><tspan class="cls-1" x="0" y="0">T</tspan><tspan class="cls-2" x="25.48" y="0">ema 4</tspan></text>
+  </g>
+</svg>
