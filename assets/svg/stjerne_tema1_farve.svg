@@ -11,23 +11,18 @@
       }
 
       .cls-3 {
-        fill: #fdf9fd;
-        stroke: #2b2b2b;
+        fill: #ff903f;
+        stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: 1.02px;
-        transition: 1s linear all;
       }
 
       .cls-4 {
+        fill: #fff;
         font-family: SegoeScript-Bold, 'Segoe Script';
         font-size: 32px;
         font-weight: 700;
       }
-
-      .cls-3:hover {
-        fill: red;
-      }
-
     </style>
   </defs>
   <g id="Star_1" data-name="Star 1">

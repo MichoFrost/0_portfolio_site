@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #2b2b2b;
+      }
+
+      .cls-2 {
+        font-family: FormaDJRBanner-Hairline, 'Forma DJR Banner';
+        font-size: 485.83px;
+        font-weight: 100;
+        letter-spacing: .16em;
+        stroke-width: 4.38px;
+      }
+    </style>
+  </defs>
+  <g id="Circle">
+    <circle id="Cirkel" class="cls-1" cx="500" cy="500" r="446.55"/>
+  </g>
+  <g id="Micho_s_Portfolio" data-name="Micho&amp;apos;s Portfolio">
+    <text class="cls-2" transform="translate(126.97 659.41)"><tspan x="0" y="0">Klik</tspan></text>
+  </g>
+</svg>
