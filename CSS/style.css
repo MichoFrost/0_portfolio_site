@@ -64,6 +64,23 @@ font-style: normal;
   pointer-events: none;
 }
 
+.heading_letter {
+  translate: -500px;
+  display: inline-block;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.heading_letter.move {
+  opacity: 1;
+  translate: 0;
+}
+
+/****BURGER-MENU***BURGER-MENU***BURGER-MENU***BURGER-MENU***/
+/****BURGER-MENU***BURGER-MENU***BURGER-MENU***BURGER-MENU***/
+/****BURGER-MENU***BURGER-MENU***BURGER-MENU***BURGER-MENU***/
+
+
+
 
 /****INTRO-TEXT***INTRO-TEXT***INTRO-TEXT***INTRO-TEXT***/
 /****INTRO-TEXT***INTRO-TEXT***INTRO-TEXT***INTRO-TEXT***/
@@ -126,6 +143,7 @@ font-style: normal;
   background-size: cover;
   cursor: pointer;
   opacity: 0;
+  scale: 0.2;
   transition: all var(--animationDuration) cubic-bezier(var(--bezierCurve));
 }
 
@@ -133,8 +151,12 @@ font-style: normal;
   opacity: 1;
 }
 
-.circle.shrink {
+/* .circle.shrink {
   scale: 0.2;
+} */
+.circle.expand {
+  scale: 1;
+  cursor: auto;
 }
 
 .circle_text {

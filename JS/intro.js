@@ -11,15 +11,15 @@ const themeStarContainers = Array.from(document.querySelectorAll('.star_containe
 const animationContainer = document.querySelector('.animation_container');
 
 const headingLetters = document.querySelectorAll('.heading_letter');
-console.log(headingLetters);
 
 
 function headingIteration(){
-  headingLetters.forEach((e) => {
+  headingLetters.forEach((e, index) => {
     setTimeout(() => {
-      console.log('Iteration');
       e.classList.add('move');
-    }, 1000);
+    }, 50 * index);
+
+    console.log(e)
   })
 }
 
@@ -59,17 +59,16 @@ function expandCircle(){
   console.log('expandCircle')
   removeIntroText();
   setTimeout(function(){
-    circle.classList.remove('shrink');
+    circle.classList.add('expand');
     animationContainer.classList.add('rotate');
     themeStarContainers.forEach(e => {
       e.classList.add('visible');
     })
   }, 1400);
 
-  // setTimeout(() => {
-
-  // });
-  // headingIteration();
+  setTimeout(() => {
+    headingIteration();
+  }, 3000);
 
 
 }
