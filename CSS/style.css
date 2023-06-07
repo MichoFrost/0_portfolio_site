@@ -2,6 +2,18 @@
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 
+:root {
+  --starWidth: 150px;
+  --circleWidth: 200px;
+  --starDistance: 270px;
+  --circleTextWidth: 20px;
+  --animationDuration: 1s;
+  --textTransition: 0.8s;
+  --animationDelay: var(--animationDuration) / 5;
+  --bezierCurve: .31,.1,.49,1.28;
+  --BG-color: #FDF9FD;
+}
+
 body, html {
   margin: 0;
 }
@@ -24,29 +36,6 @@ font-family: "forma-djr-banner", sans-serif;
 font-style: normal;
 }
 
-
-/****CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER****/
-/****CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER****/
-/****CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER***CSS-VARIABLER****/
-
-/* :root {
-  --starWidth: 600px;
-  --circleWidth: 800px;
-  --starDistance: 1100px;
-  --animationDuration: 3s;
-  --animationDelay: var(--animationDuration) / 5;
-  --bezierCurve: .31,.1,.49,1.28;
-} */
-:root {
-  --starWidth: 150px;
-  --circleWidth: 200px;
-  --starDistance: 270px;
-  --circleTextWidth: 20px;
-  --animationDuration: 1s;
-  --textTransition: 0.8s;
-  --animationDelay: var(--animationDuration) / 5;
-  --bezierCurve: .31,.1,.49,1.28;
-}
 
 /****H1: MICHOS PORTFOLIO***H1 - MICHOS PORTFOLIO***H1 - MICHOS PORTFOLIO***/
 /****H1 - MICHOS PORTFOLIO***H1 - MICHOS PORTFOLIO***H1 - MICHOS PORTFOLIO***/
@@ -83,27 +72,48 @@ font-style: normal;
   position: absolute;
   top: 0;
   left: 0;
-  width: 30vw;
+  width: 350px;
   height: 100vh;
-  background-color: grey;
+  background-color: var(--BG-color);
   z-index: 50;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  translate: -500px;
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar.visible {
+  translate: 0;
 }
 
 .navbar_list {
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
+  /* gap: 3rem; */
+  padding: 0;
 }
 
 .navbar_list-item {
   color: white;
+  list-style: none;
+  padding: 1.5rem;
+  border-radius: 30px;
+}
+.navbar_list-item:hover {
+  background-color: rgb(171, 171, 171);
+}
+.navbar_list-item:hover .navbar_link {
+  color: white;
 }
 .navbar_link {
-
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
 
@@ -191,6 +201,7 @@ font-style: normal;
   z-index: 10;
   opacity: 0;
   pointer-events: none;
+  transition: all 0.3s linear;
 }
 
 .overlay.visible {

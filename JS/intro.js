@@ -10,9 +10,9 @@ const circleText = document.querySelector('.circle_text');
 const welcome = document.querySelector('.welcome');
 const whenReady = document.querySelector('.whenReady');
 
+const navbar = document.querySelector('.navbar');
 const burgerMenu = document.querySelector('.burgerIcon');
 const burgerLines = Array.from(document.querySelectorAll('.burgerIcon__line'));
-
 const overlay = document.querySelector('.overlay');
 
 
@@ -91,6 +91,7 @@ circle.addEventListener('click', startSite);
 
 burgerMenu.addEventListener('click', () => {
   overlay.classList.toggle('visible');
+  navbar.classList.toggle('visible');
   burgerLines.forEach((e) => {
     e.classList.toggle('clicked');
   })
