@@ -30,7 +30,7 @@ function headingIteration(){
 
 
 // START SIDEN
-// startIntro();
+startIntro();
 function startIntro(){
   console.log('startIntro');
   setTimeout(function(){
@@ -42,14 +42,14 @@ function startIntro(){
   }, 2000)
   setTimeout(function(){
     circleText.classList.add('visible');
-  }, 3000)
+  }, 2200)
   setTimeout(function(){
     whenReady.classList.add('visible');
-  }, 4000)
+  }, 2800)
 }
 
-startSite();
-circle.classList.add('visible'); // FJERNES!
+// startSite();
+// circle.classList.add('visible'); // FJERNES!
 function startSite(){
   expandCircle();
   removeIntroText();
