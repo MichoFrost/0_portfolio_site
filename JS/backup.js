@@ -11,9 +11,9 @@ const welcome = document.querySelector('.welcome');
 const whenReady = document.querySelector('.whenReady');
 
 const burgerMenu = document.querySelector('.burgerIcon');
-const burgerLines = Array.from(document.querySelectorAll('.burgerIcon__line'));
 
-const overlay = document.querySelector('.overlay');
+
+
 
 
 function headingIteration(){
@@ -30,7 +30,7 @@ function headingIteration(){
 
 
 // START SIDEN
-// startIntro();
+startIntro();
 function startIntro(){
   console.log('startIntro');
   setTimeout(function(){
@@ -48,15 +48,12 @@ function startIntro(){
   }, 4000)
 }
 
-startSite();
-circle.classList.add('visible'); // FJERNES!
 function startSite(){
   expandCircle();
   removeIntroText();
   setTimeout(() => {
     headingIteration();
   }, 3000);
-  burgerMenu.classList.add('visible');
 }
 
 
@@ -83,17 +80,5 @@ function expandCircle(){
 
 // EVENT-LISTENERS
 circle.addEventListener('click', startSite);
-
-
-
-
-// BURGER-MENU
-
-burgerMenu.addEventListener('click', () => {
-  overlay.classList.toggle('visible');
-  burgerLines.forEach((e) => {
-    e.classList.toggle('clicked');
-  })
-})
 
 
