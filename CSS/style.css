@@ -2,6 +2,14 @@
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 
+/* body {
+  color: #f2af7f;
+  color: #ec8bf0;
+  color: #3a8e3a;
+  color: #e66f7b;
+  color: #7b84e9;
+} */
+
 :root {
   --starWidth: 150px;
   --circleWidth: 200px;
@@ -115,6 +123,9 @@ font-style: normal;
   font-size: 1.6rem;
   font-weight: 300;
 }
+
+
+
 
 
 /****BURGER-MENU***BURGER-MENU***BURGER-MENU***BURGER-MENU***/

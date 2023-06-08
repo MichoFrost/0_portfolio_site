@@ -11,7 +11,8 @@
       }
 
       .cls-3 {
-        fill: #ff903f;
+        fill: #f2af7f;
+        <!-- fill: #ff903f; -->
         stroke: #fff;
         stroke-miterlimit: 10;
         stroke-width: 1.02px;

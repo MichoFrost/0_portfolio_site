@@ -18,7 +18,8 @@
       }
 
       .cls-4 {
-        fill: #db4553;
+        fill: #e66f7b;
+        <!-- fill: #db4553; -->
         <!-- stroke: #2b2b2b; -->
         stroke-miterlimit: 10;
         stroke-width: 1.02px;
