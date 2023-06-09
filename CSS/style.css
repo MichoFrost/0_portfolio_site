@@ -20,6 +20,13 @@
   --animationDelay: var(--animationDuration) / 5;
   --bezierCurve: .31,.1,.49,1.28;
   --BG-color: #FDF9FD;
+
+  --orange: #f2af7f;
+  --purple: #ec8bf0;
+  --green: #3a8e3a;
+  --red: #e66f7b;
+  --blue: #7b84e9;
+
 }
 
 body, html {
@@ -101,6 +108,7 @@ font-style: normal;
   display: flex;
   flex-direction: column;
   /* gap: 3rem; */
+  width: 100%;
   padding: 0;
 }
 
@@ -109,6 +117,7 @@ font-style: normal;
   list-style: none;
   padding: 1.5rem;
   border-radius: 30px;
+  /* width: 100%; */
 }
 .navbar_list-item:hover {
   background-color: rgb(171, 171, 171);
@@ -121,7 +130,9 @@ font-style: normal;
   color: black;
   letter-spacing: 4px;
   font-size: 1.6rem;
+  padding: 1.5rem;
   font-weight: 300;
+  width: 100%;
 }
 
 
@@ -231,7 +242,6 @@ font-style: normal;
   position: absolute;
   font-weight: 100;
   font-size: 2rem;
-  /* top: 10px; */
   left: 20px;
   letter-spacing: 4px;
   opacity: 0;
@@ -244,7 +254,6 @@ font-style: normal;
 .whenReady {
   position: absolute;
   font-weight: 100;
-  /* font-size: 2rem; */
   bottom: 40px;
   left: 23%;
   letter-spacing: 2px;
@@ -267,15 +276,8 @@ font-style: normal;
   aspect-ratio: 1/1;
   scale: 3;
   position: relative;
-  /* opacity: 0; */
   transition: all linear 0.8s;
 }
-
-
-
-/* .circle_container.shrink {
-  scale: 1;
-} */
 
 .circle {
   width: 100%;
@@ -292,9 +294,6 @@ font-style: normal;
   opacity: 1;
 }
 
-/* .circle.shrink {
-  scale: 0.2;
-} */
 .circle.expand {
   scale: 1;
   cursor: auto;
@@ -306,27 +305,18 @@ font-style: normal;
   position: absolute;
   top: calc(-25% - var(--circleTextWidth));
   left: calc(35% - var(--circleTextWidth));
-  /* width: var(--circleTextWidth); */
   font-weight: 200;
   letter-spacing: 3px;
   opacity: 0;
   transition: all linear var(--textTransition);
-  /* transition: scale linear 0.3s; */
 }
 
 .circle_text.visible {
   opacity: 1;
 }
 .circle_text:hover {
-  /* background-color: blueviolet; */
   scale: 1.1;
-  /* box-shadow: 5px 10px; */
 }
-
-
-/* .circle:hover {
-  scale: 3.5;
-} */
 
 
 /****STARS***STARS***STARS***STARS***STARS****/
@@ -335,25 +325,16 @@ font-style: normal;
 
 
 .animation_container {
-  /* margin-top: 2rem; */
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* rotate: 0deg; */
-  /* rotate: 0deg; */
   transition:  var(--animationDuration) all cubic-bezier(var(--bezierCurve));
-}
-.animation_container.rotate {
-  /* rotate: 360deg; */
 }
 
 .star_container {
   width: var(--starWidth);
   position: absolute;
-  /* top: calc(50% - var(--starWidth / 2));
-  left: calc(50% - var(--starWidth / 2)); */
-  /* transform-origin: center; */
   transform: translate(0);
   pointer-events: none;
   scale: 0;
