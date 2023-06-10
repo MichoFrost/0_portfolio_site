@@ -5,38 +5,63 @@
 .theme {
   translate: 120vw;
   /* display: none; */
-  transition: 0.5s linear all;
+  transition: 1s ease-in-out all;
 }
 .theme.visible {
   /* display: block; */
   translate: 0;
 }
-
 .bigStar {
   position: absolute;
   pointer-events: none;
 }
 
+/****TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER****/
+/****TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER****/
+/****TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER***TEMA-1-HEADER****/
 
-
-
-
-/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
-/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
-/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
-
-/* .theme3 {
+.theme1 {
   width: 100vw;
   height: 100vh;
-  background-color: var(--BG-color);
+  /* background-color: var(--BG-color); */
   background-color: white;
   overflow-y: auto;
   overflow-x: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  transition: 3s linear all;
-} */
+}
+/****TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER****/
+/****TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER****/
+/****TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER***TEMA-2-HEADER****/
+
+.theme2 {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--BG-color); */
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
+/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
+/****TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER***TEMA-3-HEADER****/
+
+.theme3 {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--BG-color); */
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 /****TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER****/
 /****TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER****/
 /****TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER***TEMA-4-HEADER****/
@@ -98,11 +123,9 @@
   /* padding-right: 15px; */
 }
 
-
 .theme4_section {
   
 }
-
 
 .theme4_article {
   position: relative;
@@ -163,6 +186,7 @@
 }
 .try_game {
   translate: 20cqw;
+  margin-bottom: 5vw;
 }
 
 
@@ -203,7 +227,7 @@
   aspect-ratio: 10/9;
   top: 0;
   left: 0;
-  translate: -96cqw -45cqw;
+  translate: -96cqw -54cqw;
 }
 .theme4_bigStar-left div {
   width: 100%;
@@ -212,10 +236,30 @@
   background-size: cover;
 }
 
+/****TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER****/
+/****TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER****/
+/****TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER***TEMA-5-HEADER****/
+
+.theme5 {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--BG-color); */
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+
 .link_btn-container {
   margin-top: 5rem;
   display: flex;
-  /* flex-direction: column; */
   gap: 2rem;
 }
 .link_btn {
@@ -223,18 +267,15 @@
   color: black;
   border-radius: 1000px;
   border: 1px solid black;
-  padding: 4rem 2.3rem;
-  font-size: 4rem;
+  padding: 4rem 1.4rem;
+  font-size: 3.6rem;
+  letter-spacing: 0.6cqw;
   transition: 0.3s linear all;
 }
 
 .link_btn:hover {
   background-color: rgb(229, 228, 228);
 }
-
-
-
-
 
 /****CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON****/
 /****CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON****/
@@ -252,16 +293,15 @@
   margin-top: 2rem;
   transition: all 0.7s ease;
   cursor: pointer;
-  z-index: 100;
+  z-index: 50;
   opacity: 0;
-  transition: all 1.5s linear;
-  /* transition-delay: 6s; */
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.8s;
 }
 
 .closeIcon.visible {
   opacity: 1;
 }
-
 
 .closeIcon__line {
   /* background: white; */

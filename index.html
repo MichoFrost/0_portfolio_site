@@ -37,19 +37,42 @@
 
     <nav aria-label="Primære navigation" class="navbar">
       <ul class="navbar_list">
-        <li class="navbar_list-item"><a class="navbar_link" href="#">Sådan navigerer du</a></li>
-        <li class="navbar_list-item"><a class="navbar_link" href="#">Om sitet</a></li>
-        <li class="navbar_list-item"><a class="navbar_link" href="#">Michos proces</a></li>
-        <li class="navbar_list-item"><a class="navbar_link" href="#">Om Micho</a></li>
+        <li class="navbar_list-item"><a data-link="1" class="navbar_link" href="#">Sådan navigerer du</a></li>
+        <li class="navbar_list-item"><a data-link="2" class="navbar_link" href="#">Om sitet</a></li>
+        <li class="navbar_list-item"><a data-link="3" class="navbar_link" href="#">Michos proces</a></li>
+        <li class="navbar_list-item"><a data-link="4" class="navbar_link" href="#">Om Micho</a></li>
       </ul>
     </nav>
+
+    <article data-menu="1" class="navbar_section">
+      <h2>Artikel 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci?</p>
+      <!-- <img src="assets/img/ekliptika_forside.jpg" alt="" class="image"> -->
+    </article>
+    <article data-menu="2" class="navbar_section">
+      <h2>Artikel 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci?</p>
+      <!-- <img src="assets/img/astro_tees.jpg" alt="" class="image"> -->
+    </article>
+    </article>
+    <article data-menu="3" class="navbar_section">
+      <h2>Artikel 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci?</p>
+      <!-- <img src="assets/img/game.jpg" alt="" class="image"> -->
+    </article>
+    <article data-menu="4" class="navbar_section">
+      <h2>Artikel 4</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci?</p>
+      <!-- <img src="assets/img/pen_paper.jpg" alt="" class="image"> -->
+    </article>
+
   </header>
 
   <main>
     <section class="animation_container">
       <div class="circle_container">
         <h2 class="welcome">Velkommen</h2>
-        <div class="circle shrink">
+        <div class="circle"> <!--TILFØJE "SHRINK"-->
           <p class="circle_text">Klik</p>
         </div>
         <p class="whenReady">...når du er klar</p>
@@ -93,13 +116,21 @@
     </section>
 
 
+    <!--***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***-->
+    <!--***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***-->
+    <section class="theme1 theme">
+      <h2>TEMA 1 - Intro-ugen</h2>
+    </section>
+    <!--***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***-->
+    <!--***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***-->
+    <section class="theme2 theme">
+      <h2>TEMA 2 - Grundlæggende web</h2>
+    </section>
     <!--***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***-->
     <!--***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***-->
-    <!-- <section class="theme3">
-      <h2>Her kommer noget tekst</h2>
-    </section> -->
-
-
+    <section class="theme3 theme">
+      <h2>TEMA 3 - Grundlæggende UX</h2>
+    </section>
     <!--***TEMA 4***TEMA 4***TEMA 4***TEMA 4***TEMA 4***TEMA 4***-->
     <!--***TEMA 4***TEMA 4***TEMA 4***TEMA 4***TEMA 4***TEMA 4***-->
     <section class="theme4 theme">
@@ -167,6 +198,11 @@
           </footer>
         </div>
       </section>
+      <!--***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***-->
+      <!--***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***-->
+      <section class="theme5 theme">
+        <h2>TEMA 5 - Grundlæggende indhold</h2>
+      </section>
     </section>
 
 
@@ -181,7 +217,7 @@
   </footer>
 
   <script src="JS/intro.js"></script>
-  <script src="JS/modal.js"></script>
+  <!-- <script src="JS/modal.js"></script> -->
 </body>
 
 </html>

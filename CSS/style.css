@@ -88,7 +88,7 @@ font-style: normal;
   width: 350px;
   height: 100vh;
   background-color: var(--BG-color);
-  z-index: 50;
+  z-index: 80;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +133,30 @@ font-style: normal;
   width: 100%;
 }
 
+/****NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***/
+/****NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***/
+/****NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***NAVBAR-SECTIONS***/
+
+.navbar_section {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  padding-left: 2rem;
+  border-left: rgb(128, 128, 128, 0.2) solid 3px;
+  width: 600px;
+  height: 80vh;
+  border-radius: 0px 100px 100px 0px;
+  overflow-y: auto;
+  background-color: white;
+  z-index: 70;
+  transform: translate(-650px);
+  transition: .4s all ease-in-out;
+}
+
+.navbar_section.visible {
+  transform: translate(350px);
+}
+
 
 
 
@@ -155,12 +179,14 @@ font-style: normal;
   cursor: pointer;
   z-index: 100;
   opacity: 0;
-  transition: all 1.5s linear;
-  transition-delay: 6s;
+  pointer-events: none;
+  transition: all 1s ease-in-out;
+  /* transition-delay: 6s; */
 }
 
 .burgerIcon.visible {
   opacity: 1;
+  pointer-events: all;
 }
 
 .burgerIcon__line {
@@ -216,7 +242,7 @@ font-style: normal;
   background-color: rgb(0, 0, 0, 0.5);
   width: 100vw;
   height: 100vh;
-  z-index: 10;
+  z-index: 60;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s linear;
