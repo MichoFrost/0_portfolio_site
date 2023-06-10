@@ -1,10 +1,11 @@
 // const overlay = document.querySelector('.overlay');
 const modal = document.querySelector('.modal');
 const modalImage = document.querySelector('.modal_image');
-const header = document.querySelector('header');
+const body = document.querySelector('body');
 
-header.addEventListener('click', function(event){
+body.addEventListener('click', function(event){
   if(!event.target.classList.contains('image')) return;
+  console.log(event.target.tagName);
   modalImage.src = event.target.src;
   openModal();
 })

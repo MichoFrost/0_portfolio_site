@@ -89,3 +89,21 @@ burgerMenu.addEventListener('click', () => {
 })
 
 
+
+// STJERNE-NAVIGATION
+
+
+const closeIcon = document.querySelector('.closeIcon');
+const star4 = document.querySelector('.star_theme4_container');
+const theme4 = document.querySelector('.theme4');
+
+star4.addEventListener('click', function(){
+  theme4.classList.add('visible');
+  closeIcon.classList.add('visible');
+  
+})
+
+closeIcon.addEventListener('click', function(){
+  theme4.classList.remove('visible');
+  closeIcon.classList.remove('visible');
+})
