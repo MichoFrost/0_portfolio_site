@@ -1,0 +1,125 @@
+
+
+
+.theme4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--BG-color);
+  overflow: auto;
+}
+
+
+.theme4_header {
+  /* height: auto; */
+  padding: 5vw;
+  padding-top: 5vw;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme4_heading, 
+.theme4_subheading {
+  color: white;
+  margin: 0;
+}
+
+.theme4_heading {
+  font-weight: 500;
+  /* font-size: 2.4rem; */
+  font-size: 4.5cqw;
+  line-height: 1.2;
+  letter-spacing: 0.6cqw;
+}
+
+.michos-martian {
+  translate: -9cqw;
+}
+.meteorite-mashers {
+  translate: 6.7cqw;
+  /* margin-bottom: 5cqh; */
+  margin-bottom: 4vw;
+}
+
+.theme4_subheading {
+  font-weight: 200;
+  letter-spacing: 0.4cqw;
+  font-size: 2cqw;
+  border-top: solid white 0.25cqw;
+  padding: 1cqw 2cqw 0cqw 2cqw;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+
+
+
+
+
+
+/*TIL BURGER*/
+/* 
+.burgerIcon {
+  width: 100px;
+  height: 80px;
+  background-color: var(--backgroundColor);
+  box-shadow: 0px 0px 15px 10px var(--backgroundColor);
+  border-radius: 100px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  margin-top: 2rem;
+  transition: all 0.7s ease;
+  cursor: pointer;
+  z-index: 100;
+  opacity: 0;
+  transition: all 1.5s linear;
+  transition-delay: 6s;
+}
+
+.burgerIcon.visible {
+  opacity: 1;
+}
+
+.burgerIcon__line {
+  background: black;
+  border-radius: 9px;
+  height: 13px;
+  width: 100%;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0);
+  margin-left: auto;
+  transition: 0.45s ease-in-out;
+}
+
+.burgerIcon__line1 {
+  top: 0px;
+}
+.burgerIcon__line2 {
+  top: 27px;
+}
+.burgerIcon__line3 {
+  top: 54px;
+}
+
+.burgerIcon:hover .burgerIcon__line {
+  scale: 0.95;
+  width: 95%;
+  translate: 5px;
+}
+
+.burgerIcon__line1.burgerIcon__line.clicked {
+  top: 18px;
+  transform: rotate(135deg);
+}
+.burgerIcon__line2.burgerIcon__line.clicked {
+  opacity: 0;
+  left: -60px;
+}
+.burgerIcon__line3.burgerIcon__line.clicked {
+  top: 18px;
+  transform: rotate(-135deg);
+} */

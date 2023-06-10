@@ -18,7 +18,7 @@
       }
 
       .cls-4 {
-        fill: #3a8e3a;
+        fill: #e66f7b;        
         <!-- fill: #33a833; -->
         <!-- stroke: #2b2b2b; -->
         stroke-miterlimit: 10;

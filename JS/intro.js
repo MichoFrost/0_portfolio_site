@@ -26,9 +26,6 @@ function headingIteration(){
   })
 }
 
-
-
-
 // START SIDEN
 startIntro();
 function startIntro(){
@@ -59,7 +56,6 @@ function startSite(){
   burgerMenu.classList.add('visible');
 }
 
-
 // FJERN INTRO-TEKST
 function removeIntroText() {
   welcome.classList.remove('visible');
@@ -83,9 +79,6 @@ function expandCircle(){
 
 // EVENT-LISTENERS
 circle.addEventListener('click', startSite);
-
-
-
 
 // BURGER-MENU
 

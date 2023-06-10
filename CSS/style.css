@@ -2,14 +2,6 @@
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 /****GLOBAL***GLOBAL***GLOBAL***GLOBAL***GLOBAL****/
 
-/* body {
-  color: #f2af7f;
-  color: #ec8bf0;
-  color: #3a8e3a;
-  color: #e66f7b;
-  color: #7b84e9;
-} */
-
 :root {
   --starWidth: 150px;
   --circleWidth: 200px;
@@ -46,7 +38,7 @@ main {
 }
 
 /*FONTE*/
-h1, h2, h3, p, a {
+h1, h2, h3, h4, h5, p, a {
 font-family: "forma-djr-banner", sans-serif;
 font-style: normal;
 }
@@ -193,8 +185,6 @@ font-style: normal;
   width: 95%;
   translate: 5px;
 }
-
-
 
 .burgerIcon__line.clicked {
   /* background: white; */
