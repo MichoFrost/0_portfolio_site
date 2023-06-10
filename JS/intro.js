@@ -21,8 +21,6 @@ function headingIteration(){
     setTimeout(() => {
       e.classList.add('move');
     }, 50 * index);
-
-    console.log(e)
   })
 }
 
