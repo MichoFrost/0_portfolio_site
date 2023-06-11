@@ -25,7 +25,7 @@ function headingIteration(){
 }
 
 // START SIDEN
-// startIntro();
+startIntro();
 function startIntro(){
   // console.log('startIntro');
   setTimeout(function(){
@@ -43,18 +43,18 @@ function startIntro(){
   }, 2800)
 }
 
-startSite();
+// startSite();
 // circle.classList.add('visible'); // FJERNES!
 function startSite(){
   expandCircle();
   removeIntroText();
-  // setTimeout(() => {
-  //   headingIteration();
-  // }, 3000);
+  setTimeout(() => {
+    headingIteration();
+  }, 0); // HUSK = SKAL VÆRE 3000!!!
 
   setTimeout(() => {
     burgerMenu.classList.add('visible');
-  }, 0); // 6000
+  }, 0); // HUSK = SKAL VÆRE 6000!!!
 }
 
 // FJERN INTRO-TEKST
@@ -65,7 +65,7 @@ function removeIntroText() {
   }, 200);
   setTimeout(() => {
     circleText.classList.remove('visible');
-  }, 600);
+  }, 0); // // HUSK = SKAL VÆRE  600!!!
 }
 // UDVID CIRKLEN
 function expandCircle(){
@@ -75,7 +75,7 @@ function expandCircle(){
     themeStarContainers.forEach(e => {
       e.classList.add('visible');
     })
-  }, 0); // 1400
+  }, 0); // // HUSK = SKAL VÆRE  1400!!!
 }
 
 // EVENT-LISTENERS
@@ -127,6 +127,7 @@ star4.addEventListener('click', function(){
   burgerMenu.classList.remove('visible');
 })
 star5.addEventListener('click', function(){
+  console.log("theme5")
   theme5.classList.add('visible');
   closeIcon.classList.add('visible');
   burgerMenu.classList.remove('visible');
