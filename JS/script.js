@@ -50,11 +50,11 @@ function startSite(){
   removeIntroText();
   setTimeout(() => {
     headingIteration();
-  }, 0); // HUSK = SKAL VÆRE 3000!!!
+  }, 3000); // HUSK = SKAL VÆRE 3000!!!
 
   setTimeout(() => {
     burgerMenu.classList.add('visible');
-  }, 0); // HUSK = SKAL VÆRE 6000!!!
+  }, 6000); // HUSK = SKAL VÆRE 6000!!!
 }
 
 // FJERN INTRO-TEKST
@@ -65,7 +65,7 @@ function removeIntroText() {
   }, 200);
   setTimeout(() => {
     circleText.classList.remove('visible');
-  }, 0); // // HUSK = SKAL VÆRE  600!!!
+  }, 600); // // HUSK = SKAL VÆRE  600!!!
 }
 // UDVID CIRKLEN
 function expandCircle(){
@@ -75,7 +75,7 @@ function expandCircle(){
     themeStarContainers.forEach(e => {
       e.classList.add('visible');
     })
-  }, 0); // // HUSK = SKAL VÆRE  1400!!!
+  }, 1400); // // HUSK = SKAL VÆRE  1400!!!
 }
 
 // EVENT-LISTENERS

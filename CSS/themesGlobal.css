@@ -16,6 +16,61 @@
   pointer-events: none;
 }
 
+/****NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS****/
+/****NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS****/
+/****NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS***NAV-BUTTONS****/
+
+/* .nav_btn-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.nav_btn {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 1000px;
+  border: 1px solid black;
+  padding: 7rem 6rem;
+  font-size: 3rem;
+}
+
+.nav_btn:hover {
+  background-color: rgb(229, 228, 228);
+}
+
+@media (max-width: 1000px){
+  .nav_btn-container { 
+    gap: 1rem;
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 600px){
+  .nav_btn-container { 
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .nav_btn {
+    padding: 2.5rem 1rem;
+    font-size: 2rem;
+  }
+}
+  
+@media (max-width: 400px){
+  .nav_btn-container {
+    flex-direction: column;
+  }
+  .nav_btn {
+    padding: 2rem 0.6rem;
+    font-size: 2.4rem;
+  }
+} */
+
+
+
 
 /****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
 /****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
@@ -50,8 +105,8 @@
 @media (max-width: 600px){
   .link_btn-container {
     gap: 1.5rem;
-    margin-top: 6rem;
-    translate: -20vw;
+    margin-bottom: 5rem;
+    /* translate: -20vw; */
   }
   .link_btn {
     padding: 2.5rem 1rem;
@@ -62,7 +117,6 @@
 @media (max-width: 400px){
   .link_btn-container {
     flex-direction: column;
-
   }
   .link_btn {
     padding: 2rem 0.6rem;
@@ -139,4 +193,35 @@
 }
 
 
+/****UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON****/
+/****UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON****/
+/****UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON***UP-ICON****/
 
+.theme1_footer {
+
+}
+
+.up_icon {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 4rem 2rem;
+  border-radius: 200px;
+  border: solid 1px black;
+}
+
+.up_icon:hover {
+  background-color: rgb(229, 228, 228);
+}
+
+/* @media (max-width: 600px) {
+
+} */
+@media (max-width: 600px) {
+  .up_icon {
+    width: 20%;
+    margin-bottom: 4rem;
+    padding: 2rem 1rem;
+  }
+}

@@ -125,8 +125,13 @@
 
     <!--***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***-->
     <!--***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***TEMA 1***-->
-    <section class="theme1 theme visible">
-      <header class="theme1_header">
+    <section id="theme1_top" class="theme1 theme">
+      <div class="theme1_nav_btn-container">
+        <a class="theme1_nav_btn theme1_nav_btn1" href="#presentation">Præsentations <br>
+          kort</a>
+        <a class="theme1_nav_btn theme1_nav_btn2" href="#astroforce">Astroforce</a>
+      </div>
+      <header id="presentation" class="theme1_header">
         <h2 class="theme1_heading presentationcard">Præsentationskort</h2>
         <h4 class="theme1_subheading">Tema 1 - Intro-ugen</h4>
       </header>
@@ -146,7 +151,7 @@
         </div>
       </section>
 
-      <header class="theme1_header">
+      <header id="astroforce" class="theme1_header">
         <h2 class="theme1_heading presentationcard">Astroforce</h2>
         <h4 class="theme1_subheading">Tema 1 - Intro-ugen</h4>
       </header>
@@ -163,7 +168,7 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme1_article about_game">
+          <article class="theme1_article">
             <figure class="bigStar theme1_bigStar-right">
               <div></div>
             </figure>
@@ -181,33 +186,40 @@
             </figure>
           </article>
 
-          <article class="theme1_article sketches_screens">
+          <article class="theme1_article">
             <figure class="bigStar theme1_bigStar-left">
               <div></div>
             </figure>
             <h3 class="theme1_article_heading">Se videoen</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sQNOE7xHSh8"
+            <iframe class="theme1_video" width="500" height="500" src="https://www.youtube.com/embed/sQNOE7xHSh8"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
           </article>
         </div>
       </section>
+      <footer class="theme1_footer">
+        <a href="#theme1_top"><img class="up_icon" src="assets/img/up_icon.png"></a>
+      </footer>
     </section>
 
 
     <!--***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***-->
     <!--***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***TEMA 2***-->
     <section class="theme2 theme">
-      <header class="theme2_header">
-        <h2 class="theme2_heading presentationcard">Studiestartsprøve</h2>
+      <div class="theme2_nav_btn-container">
+        <a class="theme2_nav_btn theme2_nav_btn1" href="#studystart">Studiestarts<br>prøve</a>
+        <a class="theme2_nav_btn theme2_nav_btn2" href="#ekliptika">Ekliptika<br>re-design</a>
+      </div>
+      <header id="studystart" class="theme2_header">
+        <h2 class="theme2_heading">Studiestartsprøve</h2>
         <h4 class="theme2_subheading">Tema 2 - Grundlæggende web</h4>
       </header>
 
 
       <section class="theme2_section">
         <div class="wrapper">
-          <article class="theme2_article whoismicho">
+          <article class="theme2_article">
             <h3 class="theme2_article_heading">Om computere</h3>
             <img class="theme2_clippath image" src="assets/img/theme2/studiestart_3.jpg"
               alt="Skitse af idé til computerspil">
@@ -217,7 +229,7 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme2_article sketches_screens">
+          <article class="theme2_article ">
             <figure class="bigStar theme2_bigStar-right">
               <div></div>
             </figure>
@@ -235,7 +247,7 @@
             </figure>
           </article>
 
-          <footer class="theme2_article try_game">
+          <footer class="theme2_article">
             <figure class="bigStar theme2_bigStar-left">
               <div></div>
             </figure>
@@ -254,8 +266,8 @@
       </section>
 
 
-      <header class="theme2_header">
-        <h2 class="theme2_heading presentationcard">Re-design til 'Ekliptika'</h2>
+      <header id="ekliptika" class="theme2_header">
+        <h2 class="theme2_heading presentationcard">Ekliptika = Re-design</h2>
         <h4 class="theme2_subheading">Tema 2 - Grundlæggende web</h4>
       </header>
 
@@ -271,9 +283,9 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme2_article about_game">
+          <article class="theme2_article">
 
-            <article class="theme2_article sketches_screens">
+            <article class="theme2_article ">
               <figure class="bigStar theme2_bigStar-right">
                 <div></div>
               </figure>
@@ -296,7 +308,7 @@
               </figure>
             </article>
 
-            <footer class="theme2_article try_game">
+            <footer class="theme2_article theme2_footer">
               <figure class="bigStar theme2_bigStar-left">
                 <div></div>
               </figure>
@@ -319,13 +331,13 @@
     <!--***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***TEMA 3***-->
     <section class="theme3 theme">
       <header class="theme3_header">
-        <h2 class="theme3_heading presentationcard">Astro-Tees</h2>
+        <h2 class="theme3_heading">Astro-Tees</h2>
         <h4 class="theme3_subheading">Tema 3 - Grundlæggende UX</h4>
       </header>
 
       <section class="theme3_section">
         <div class="wrapper">
-          <article class="theme3_article whoismicho">
+          <article class="theme3_article">
             <h3 class="theme3_article_heading">Astrologiske T-shirts</h3>
             <img class="theme3_clippath image" src="assets/img/theme3/t-shirt.png" alt="Skitse af idé til computerspil">
             <p class="theme3_article_paragraph clippath-paragraph ">Lorem, ipsum dolor sit amet consectetur
@@ -334,7 +346,7 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme3_article about_game">
+          <article class="theme3_article">
             <figure class="bigStar theme3_bigStar-right">
               <div></div>
             </figure>
@@ -344,7 +356,7 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme3_article sketches_screens">
+          <article class="theme3_article ">
             <h3 class="theme3_article_heading">Skitser og prototype</h3>
             <p class="theme3_article_paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe eum
               accusantium praesentium quasi dignissimos neque possimus, maxime provident autem velit officiis alias
@@ -359,7 +371,7 @@
             </figure>
           </article>
 
-          <footer class="theme3_article try_game">
+          <footer class="theme3_article">
             <figure class="bigStar theme3_bigStar-left">
               <div></div>
             </figure>
@@ -437,7 +449,7 @@
             <p class="theme4_article_paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe eum
               accusantium praesentium quasi dignissimos neque possimus, maxime provident autem velit officiis alias
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
-            <div class="link_btn-container">
+            <div class="link_btn-container theme4_link_btn-container">
               <a class="link_btn" target="_blank" href="https://michofrost.github.io/SPILLET/">Spillet</a>
               <a class="link_btn" target="_blank" href="https://github.com/MichoFrost/SPILLET">Github</a>
             </div>
@@ -450,15 +462,17 @@
     <!--***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***-->
     <!--***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***TEMA 5***-->
     <section class="theme5 theme">
-      <header class="theme5_header">
-        <h2 class="theme5_heading presentationcard">Pen & Paper</h2>
+      <div class="theme5_nav_btn-container">
+        <a class="theme5_nav_btn theme5_nav_btn1" href="#pen_paper">Pen <br> & Paper</a>
+        <a class="theme5_nav_btn theme5_nav_btn2" href="#tfk">Teosofisk <br> Forening</a>
+      </div>
+      <header id="pen_paper" class="theme5_header">
+        <h2 class="theme5_heading">Pen & Paper</h2>
         <h4 class="theme5_subheading">Tema 5 - Grundlæggende indhold</h4>
       </header>
-
-
       <section class="theme5_section">
         <div class="wrapper">
-          <article class="theme5_article whoismicho">
+          <article class="theme5_article">
             <h3 class="theme5_article_heading">"iacta alea est"</h3>
             <img class="theme5_clippath image" src="assets/img/theme5/Terninger.jpg"
               alt="Skitse af idé til computerspil">
@@ -468,7 +482,7 @@
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
           </article>
 
-          <article class="theme5_article about_game">
+          <article class="theme5_article">
             <figure class="bigStar theme5_bigStar-right">
               <div></div>
             </figure>
@@ -491,7 +505,7 @@
             </figure>
           </article>
 
-          <footer class="theme5_article try_game">
+          <footer class="theme5_article">
             <figure class="bigStar theme5_bigStar-left">
               <div></div>
             </figure>
@@ -507,7 +521,7 @@
         </div>
       </section>
 
-      <header class="theme5_header">
+      <header id="tfk" class="theme5_header">
         <h2 class="theme5_heading presentationcard">Teosofisk forening</h2>
         <h4 class="theme5_subheading">Tema 5 - Grundlæggende indhold</h4>
       </header>
@@ -526,10 +540,6 @@
               adipisicing elit. Saepe eum accusantium praesentium quasi dignissimos neque possimus, maxime provident
               autem velit officiis alias
               quisquam, cum nihil beatae a amet iste quo vel fugit quia ab.</p>
-            <div class="link_btn-container">
-              <a class="link_btn" target="_blank" href="https://michofrost.github.io/0_tfk_virksomhedssite/">Siden</a>
-              <a class="link_btn" target="_blank" href="https://github.com/MichoFrost/0_tfk_virksomhedssite">Github</a>
-            </div>
             <figure class="theme5_image-grid">
               <img src="assets/img/theme5/t1.jpg" alt="Skitser af rumskibe og planeter" class="theme5_grid-item image">
               <img src="assets/img/theme5/t2.jpg" alt="Skitser af meteorer" class="theme5_grid-item image">
@@ -538,13 +548,13 @@
               <img src="assets/img/theme5/t5.jpg" alt="Thumbnail skitser" class="theme5_grid-item image">
               <img src="assets/img/theme5/t6.jpg" alt="Introskærm fra spillet" class="theme5_grid-item image">
             </figure>
+            <div class="link_btn-container">
+              <a class="link_btn" target="_blank" href="https://michofrost.github.io/0_tfk_virksomhedssite/">Siden</a>
+              <a class="link_btn" target="_blank" href="https://github.com/MichoFrost/0_tfk_virksomhedssite">Github</a>
+            </div>
 
           </article>
 
-          <article class="theme5_article sketches_screens">
-            <!-- <h3 class="theme5_article_heading">Se siden</h3> -->
-
-          </article>
         </div>
       </section>
 

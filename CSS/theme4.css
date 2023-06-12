@@ -339,3 +339,18 @@
     width: 90cqw;
   }
 }
+
+
+@media (max-width: 900px){
+  .theme4_link_btn-container {
+    translate: 0vw -3rem;
+  }
+}
+
+@media (max-width: 600px){
+  .theme4_link_btn-container {
+    translate: -20vw 3rem;
+  }
+}
+
+
