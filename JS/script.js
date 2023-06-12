@@ -81,6 +81,9 @@ function expandCircle(){
 // EVENT-LISTENERS
 circle.addEventListener('click', startSite);
 
+
+
+
 // BURGER-MENU
 
 burgerMenu.addEventListener('click', () => {
@@ -91,6 +94,12 @@ burgerMenu.addEventListener('click', () => {
   })
   closeAllNavbarSections();
 })
+
+
+
+
+
+
 
 // STJERNE-NAVIGATION
 const allThemeSections = Array.from(document.querySelectorAll('.theme'));

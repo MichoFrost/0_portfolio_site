@@ -1,0 +1,142 @@
+/****TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL****/
+/****TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL****/
+/****TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL***TEMAER-GLOBAL****/
+
+.theme {
+  translate: 120vw;
+  /* display: none; */
+  transition: 1s ease-in-out all;
+}
+.theme.visible {
+  /* display: block; */
+  translate: 0;
+}
+.bigStar {
+  position: absolute;
+  pointer-events: none;
+}
+
+
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+/****LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS***LINK-BUTTONS****/
+
+.link_btn-container {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.link_btn {
+  text-decoration: none;
+  color: black;
+  border-radius: 1000px;
+  border: 1px solid black;
+  padding: 4rem 1.4rem;
+  font-size: 3.6rem;
+  letter-spacing: 0.6cqw;
+  transition: 0.3s linear all;
+}
+
+.link_btn:hover {
+  background-color: rgb(229, 228, 228);
+}
+
+@media (max-width: 1000px){
+  .link_btn {
+    padding: 3rem 1rem;
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 600px){
+  .link_btn-container {
+    gap: 1.5rem;
+    margin-top: 6rem;
+    translate: -20vw;
+  }
+  .link_btn {
+    padding: 2.5rem 1rem;
+    font-size: 2rem;
+  }
+}
+  
+@media (max-width: 400px){
+  .link_btn-container {
+    flex-direction: column;
+
+  }
+  .link_btn {
+    padding: 2rem 0.6rem;
+    font-size: 2.4rem;
+  }
+}
+
+
+/****CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON****/
+/****CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON****/
+/****CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON***CLOSE-ICON****/
+
+.closeIcon {
+  width: 50px;
+  height: 80px;
+  border-radius: 100px;
+  position: absolute;
+  right: 5%;
+  top: 0.5%;
+  margin-top: 2rem;
+  transition: all 0.7s ease;
+  cursor: pointer;
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.8s;
+}
+
+.closeIcon.visible {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.closeIcon__line {
+  background: black;
+  border-radius: 9px;
+  height: 9px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  transform: rotate(0);
+  margin-left: auto;
+  transition: 0.45s ease-in-out;
+}
+
+.closeIcon__line1 {
+  top: 18px;
+  transform: rotate(135deg);
+}
+.closeIcon__line2 {
+  top: 18px;
+  transform: rotate(-135deg);
+}
+
+.closeIcon:hover .closeIcon__line {
+  scale: 0.95;
+  width: 95%;
+  translate: 2px;
+}
+
+@media (max-width: 600px){
+  .closeIcon {
+    width: 30px;
+    height: 80px;
+    right: 8%;
+    top: 1.5%;
+    margin-top: 0rem;
+    transition: all 0.7s ease;
+  }
+  .closeIcon__line {
+    height: 5px;
+  }
+}
+
+
+
