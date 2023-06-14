@@ -375,6 +375,9 @@
   }
 }
 @media (max-width: 600px){
+  .theme1_nav_btn-container {
+    translate: 0px -8rem;
+  }
   .theme1_nav_btn1 {
     padding: 4rem 1rem;
     font-size: 2.5rem;

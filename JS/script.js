@@ -101,6 +101,10 @@ burgerMenu.addEventListener('click', () => {
 
 
 
+
+
+
+
 // STJERNE-NAVIGATION
 const allThemeSections = Array.from(document.querySelectorAll('.theme'));
 const closeIcon = document.querySelector('.closeIcon');
